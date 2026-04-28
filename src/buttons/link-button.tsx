@@ -9,11 +9,11 @@ interface LinkButtonProps {
         <style>{`
           .custom-button {
             padding: 0.1em 0.25em;
-            width: 13em;
-            height: 4.2em;
+            width: 10em;
+            height: 4.5em;
             background-color: #212121;
             border: 0.08em solid #fff;
-            border-radius: 0.3em;
+            border-radius: 0.5em;
             font-size: 12px;
             cursor: pointer;
           }
@@ -23,8 +23,8 @@ interface LinkButtonProps {
             justify-content: center;
             align-items: center;
             bottom: 0.4em;
-            width: 8.25em;
-            height: 2.5em;
+            width: 6.25em;
+            height: 2em;
             background-color: #212121;
             border-radius: 0.2em;
             font-size: 1.5em;
