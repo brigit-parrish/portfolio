@@ -24,7 +24,7 @@ export default function Home() {
           Software Engineer · Seattle, WA
         </p>
         <div className="flex flex-row gap-14 mt-10 fade-in-delay-2">
-          <LinkButton label="Resume" href="/resume.pdf" />
+          <LinkButton label="Resume" href="/brigit-parrish-resume.pdf" />
           <LinkButton label="LinkedIn" href="https://linkedin.com/in/brigitparrish" />
           <LinkButton label="GitHub" href="https://github.com/brigit-parrish" />
         </div>
@@ -109,9 +109,75 @@ export default function Home() {
             >
               Projects
             </h2>
-            <p className="text-sm opacity-50">Coming soon!</p>
+            
+            <a
+              href="https://job-radar-4vrf.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', display: 'block', maxWidth: '320px' }}
+            >
+              <div
+                className="rounded-2xl overflow-hidden transition-all hover:scale-[1.02]"
+                style={{ border: '1px solid rgba(0,0,0,0.08)', background: 'rgba(0,0,0,0.02)' }}
+              >
+                <div
+                  className="relative overflow-hidden"
+                  style={{ height: '120px', background: '#111113' }}
+                >
+                  <iframe
+                    src="https://job-radar-4vrf.vercel.app"
+                    style={{
+                      width: '150%',
+                      height: '150%',
+                      transform: 'scale(0.67)',
+                      transformOrigin: 'top left',
+                      border: 'none',
+                      pointerEvents: 'none',
+                    }}
+                  />
+                  <div style={{ position: 'absolute', inset: 0 }} />
+                </div>
+                <div className="p-4">
+                  <div className="flex items-center justify-between mb-1">
+                    <p className="font-semibold text-sm" style={{ fontFamily: 'var(--font-inter)' }}>
+                      Job Radar
+                    </p>
+                    <p className="text-xs opacity-40" style={{ fontFamily: 'var(--font-inter)' }}>
+                      2026 ↗
+                    </p>
+                  </div>
+                  <p className="text-xs leading-relaxed opacity-60" style={{ fontFamily: 'var(--font-inter)' }}>
+                    AI-powered job application tracker using Gmail, Claude AI, and Google Calendar.
+                  </p>
+                  <div className="flex flex-wrap gap-1.5 mt-3">
+                    {['Next.js', 'Claude AI', 'Gmail API', 'Supabase'].map(tag => (
+                      <span
+                        key={tag}
+                        className="text-xs px-2 py-0.5 rounded-full"
+                        style={{ background: 'rgba(0,0,0,0.06)', fontFamily: 'var(--font-inter)' }}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <p className="text-sm mt-4 opacity-60" style={{ fontFamily: 'var(--font-inter)' }}>
+              Want to try it?{' '}
+              <a
+                href="mailto:brigitjacqueline@gmail.com"
+                style={{ textDecoration: 'underline', opacity: 1 }}
+              >
+                Reach out
+              </a>
+              {' '}and I'll add you as a test user.
+            </p>
+
           </section>
 
+      
           {/* PASSIONS */}
           <section id="passions">
             <h2
