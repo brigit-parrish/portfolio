@@ -124,7 +124,10 @@ export default function Home() {
               About
             </h2>
             <p className="text-base leading-8 opacity-80">
-              Hi! I'm Brigit, a software engineer based in Seattle, WA. I graduated from the University of Washington with a BS in Computer Science & Engineering and currently work at EquipmentShare on the Demand Capture team, where I ship customer-facing features end-to-end in a large-scale React/TypeScript/Next.js monorepo. I care deeply about building things that feel intuitive and delightful to use.
+              Hi! I'm Brigit, a software engineer based in Seattle, WA. I graduated from the University of Washington with a BS in Computer Science & Engineering and currently work at EquipmentShare on the Demand Capture team, where I ship customer-facing features end-to-end in a large-scale React/TypeScript/Next.js monorepo.
+            </p>
+            <p className="text-base leading-8 opacity-80 mt-4">
+              I'm deeply interested in the intersection of AI and product, more specifically how agentic systems, RAG pipelines, and MCP can be used to build tools that feel genuinely intelligent rather than just automated. I care about HCI principles and believe the best software disappears into the experience.
             </p>
           </section>
 
@@ -230,7 +233,13 @@ export default function Home() {
               Passions
             </h2>
             <p className="text-base leading-8 opacity-80">
-              Outside of work I love strength training, exploring Seattle car-free, and spending time with my cats Ollie and Kona. I care a lot about building things that feel good to use — whether that's a web app or finding the perfect coffee spot in the city.
+              I'm fascinated by how AI is changing the way we build products. I spend a lot of time thinking about agentic workflows, retrieval-augmented generation, and how tools like MCP are enabling a new class of software that can reason, retrieve, and act on behalf of users.
+            </p>
+            <p className="text-base leading-8 opacity-80 mt-4">
+              I'm also passionate about human-computer interaction whether it is how layout, motion, feedback, and language shape whether a product feels delightful or frustrating. I believe great frontend engineers think as much about the person using the product as they do about the code powering it.
+            </p>
+            <p className="text-base leading-8 opacity-80 mt-4">
+              Outside of work I enjoy strength training, exploring Seattle car-free, and spending time with my cats Ollie and Kona.
             </p>
           </section>
 
